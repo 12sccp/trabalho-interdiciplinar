@@ -1,0 +1,125 @@
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color:#fff8ed;
+    color: #333;
+}
+
+.header {
+    background: linear-gradient(90deg, #4caf50, #2196f3);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.section1{
+    max-width: 800px;
+    margin: 60px auto;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #444;
+    padding: 0 20px;
+}
+
+
+.section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.container-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.card-style {
+    background: white;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 260px;
+}
+
+.card-style:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+.card-style img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.aromas {
+    background-color:#fceae4;
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+  
+  .aromas h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .aromas p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  
+  .aromas-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .aroma-card {
+    width: 140px;
+    height: 140px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .aroma-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .emoji {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Cores dos cards */
+  .amarelo { background-color: #fff176; }
+  .rosa    { background-color: #ff8a80; }
+  .laranja { background-color: #ffb74d; }
+  .roxo    { background-color: #ce93d8; }
+  .rosinha { background-color: #f8bbd0; }
+  
+
+.footer {
+    background: linear-gradient(90deg, #2196f3, #4caf50);
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    font-size: 0.9rem;
+}
